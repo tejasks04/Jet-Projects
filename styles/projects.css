@@ -1,0 +1,134 @@
+body{
+  background-image: url("https://hougumlaw.com/wp-content/uploads/2016/05/light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 70px;
+  font-family: Arial;
+}
+.project-others-flex,
+.project-games-flex,
+.project-social-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-color: black;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding-bottom: 50px;
+}
+.project-others-flex{
+  border: none;
+}
+.social-media,
+.others,
+.games {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 42px; /* Slightly larger font for better emphasis */
+  color: #2c3e50; /* Darker, more modern color */
+  text-align: center; /* Center the text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
+  background: linear-gradient(to right, #f8f9fa, #e9ecef); /* Gradient background */
+  padding: 20px; /* Add padding for space around text */
+  border-radius: 10px; /* Rounded corners */
+  margin: 20px auto; /* Center the element horizontally */
+  max-width: 80%; /* Limit the width for better layout */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+.others{
+  margin-top: 50px;
+}
+.social-media{
+  margin-top: 50px;
+}
+.yt-img,
+.rps-img{
+  height: 250px;
+  width: 250px;
+  margin-right: 40px;
+}
+.insta-img,
+.coin-img{
+  height: 230px;
+  width: 230px;
+  margin-right: 60px;
+}
+.todo-img{
+  height: 280px;
+  width: 280px;
+  margin-right: 10px;
+}
+.todo-head,
+.yt-head,
+.insta-head,
+.rps-head,
+.coin-head{
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.todo-description,
+.yt-description,
+.insta-description,
+.rps-description{
+  font-size: 17px;
+}
+.todo-flex,
+.yt-flex,
+.insta-flex,
+.rps-flex,
+.coin-flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 255, 0.144);
+  max-width: 750px;
+  height: 250px;
+  padding: 35px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.coin-flex{
+  padding: 27px;
+}
+.yt-flex,
+.insta-flex{
+  background-color: rgba(110, 160, 95, 0.315);
+}
+.todo-flex{
+  background-color: rgba(139, 110, 46, 0.411);
+}
+.play-button,
+.play-button-1 {
+  padding: 12px 30px; /* Combined padding shorthand */
+  font-size: 16px;
+  border-radius: 25px;
+  border: none;
+  background: linear-gradient(45deg, #283c86, #45a247); /* Gradient background */
+  color: white;
+  font-weight: bold;
+  margin: 20px 130px auto; /* Center the button horizontally */
+  display: block; /* Makes the margin centering work */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  transition: transform 0.3s, background 0.3s; /* Smooth transition for hover effects */
+  cursor: pointer;
+}
+.play-button-1{
+  margin: 20px 120px auto; /* Center the button horizontally */
+}
+.play-button-1:hover,
+.play-button:hover {
+  background: linear-gradient(45deg, #45a247, #283c86); /* Reverse the gradient on hover */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
